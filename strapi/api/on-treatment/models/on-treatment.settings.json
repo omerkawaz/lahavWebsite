@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "on_treatments",
+  "info": {
+    "name": "OnTreatment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

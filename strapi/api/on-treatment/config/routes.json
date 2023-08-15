@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/on-treatment",
+      "handler": "on-treatment.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/on-treatment",
+      "handler": "on-treatment.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/on-treatment",
+      "handler": "on-treatment.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

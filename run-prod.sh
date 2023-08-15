@@ -1,0 +1,1 @@
+echo NODE_ENV=production pm2 start strapi --name strapi-api

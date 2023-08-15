@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_custom_effects",
+  "info": {
+    "name": "effects",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "a": {
+      "type": "string"
+    }
+  }
+}

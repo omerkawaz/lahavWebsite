@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles_categories",
+  "info": {
+    "name": "ArticlesCategory",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "articles": {
+      "via": "category",
+      "collection": "articles",
+      "dominant": true
+    },
+    "isHomepage": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "articles",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "category": {
+      "via": "articles",
+      "collection": "articles-category"
+    },
+    "description": {
+      "type": "text",
+      "required": false
+    },
+    "src": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "paragraphs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "custom.paragraphs"
+    },
+    "order": {
+      "type": "integer"
+    },
+    "isHomepage": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

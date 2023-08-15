@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_custom_successes",
+  "info": {
+    "name": "success",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "effect": {
+      "type": "string"
+    }
+  }
+}

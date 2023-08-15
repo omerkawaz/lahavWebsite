@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_custom_paragraphs",
+  "info": {
+    "name": "paragraphs",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}
